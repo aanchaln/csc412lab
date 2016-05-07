@@ -24,21 +24,23 @@
 # Registers:
 
 # File marks:
-'0  1  24  ~/README.txt
-'1  1  24  ~/verinfo.txt
-'2  1  19  ~/bar.txt
-'3  1  19  ~/foo.txt
-'4  1  0  ~/public_html/#about.html#
-'5  8  0  ~/public_html/site.css
-'6  1  0  ~/public_html/about_html
-'7  11  0  ~/public_html/site.css
-'8  1  0  ~/public_html/site.css
+'0  2  0  ~/foo.txt
+'1  1  24  ~/README.txt
+'2  1  24  ~/verinfo.txt
+'3  1  19  ~/bar.txt
+'4  1  19  ~/foo.txt
+'5  1  0  ~/public_html/#about.html#
+'6  8  0  ~/public_html/site.css
+'7  1  0  ~/public_html/about_html
+'8  11  0  ~/public_html/site.css
+'9  1  0  ~/public_html/site.css
 
 # Jumplist (newest first):
+-'  2  0  ~/foo.txt
+-'  1  0  ~/foo.txt
 -'  1  24  ~/README.txt
 -'  1  24  ~/verinfo.txt
 -'  1  19  ~/bar.txt
--'  1  19  ~/foo.txt
 -'  1  0  ~/public_html/#about.html#
 -'  8  0  ~/public_html/site.css
 -'  11  0  ~/public_html/site.css
@@ -65,7 +67,6 @@
 -'  1  0  ~/public_html/site.css
 -'  1  0  ~/public_html/about_html
 -'  7  0  ~/public_html/site.css
--'  1  19  ~/foo.txt
 -'  1  0  ~/public_html/#about.html#
 -'  8  0  ~/public_html/site.css
 -'  11  0  ~/public_html/site.css
@@ -93,7 +94,6 @@
 -'  1  0  ~/public_html/about_html
 -'  7  0  ~/public_html/site.css
 -'  1  19  ~/bar.txt
--'  1  19  ~/foo.txt
 -'  1  0  ~/public_html/#about.html#
 -'  8  0  ~/public_html/site.css
 -'  11  0  ~/public_html/site.css
@@ -120,7 +120,6 @@
 -'  1  0  ~/public_html/site.css
 -'  1  0  ~/public_html/about_html
 -'  7  0  ~/public_html/site.css
--'  1  19  ~/foo.txt
 -'  1  0  ~/public_html/#about.html#
 -'  8  0  ~/public_html/site.css
 -'  11  0  ~/public_html/site.css
@@ -132,9 +131,16 @@
 -'  11  0  ~/public_html/site.css
 -'  1  0  ~/public_html/about_html
 -'  1  0  ~/public_html/site.css
--'  1  0  ~/public_html/about_html
 
 # History of marks within files (newest to oldest):
+
+> ~/foo.txt
+	"	2	0
+	^	2	1
+	.	2	0
+	+	1	0
+	+	3	0
+	+	2	0
 
 > ~/README.txt
 	"	1	24
@@ -149,12 +155,6 @@
 	+	2	0
 
 > ~/bar.txt
-	"	1	19
-	^	1	20
-	.	1	19
-	+	1	19
-
-> ~/foo.txt
 	"	1	19
 	^	1	20
 	.	1	19
