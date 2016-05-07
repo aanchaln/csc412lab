@@ -24,15 +24,19 @@
 # Registers:
 
 # File marks:
-'0  1  19  ~/bar.txt
-'1  1  19  ~/foo.txt
-'2  1  0  ~/public_html/#about.html#
-'3  8  0  ~/public_html/site.css
-'4  1  0  ~/public_html/about_html
-'5  11  0  ~/public_html/site.css
-'6  1  0  ~/public_html/site.css
+'0  1  24  ~/README.txt
+'1  1  24  ~/verinfo.txt
+'2  1  19  ~/bar.txt
+'3  1  19  ~/foo.txt
+'4  1  0  ~/public_html/#about.html#
+'5  8  0  ~/public_html/site.css
+'6  1  0  ~/public_html/about_html
+'7  11  0  ~/public_html/site.css
+'8  1  0  ~/public_html/site.css
 
 # Jumplist (newest first):
+-'  1  24  ~/README.txt
+-'  1  24  ~/verinfo.txt
 -'  1  19  ~/bar.txt
 -'  1  19  ~/foo.txt
 -'  1  0  ~/public_html/#about.html#
@@ -88,8 +92,61 @@
 -'  1  0  ~/public_html/site.css
 -'  1  0  ~/public_html/about_html
 -'  7  0  ~/public_html/site.css
+-'  1  19  ~/bar.txt
+-'  1  19  ~/foo.txt
+-'  1  0  ~/public_html/#about.html#
+-'  8  0  ~/public_html/site.css
+-'  11  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  1  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  7  0  ~/public_html/site.css
+-'  8  0  ~/public_html/site.css
+-'  11  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  1  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  7  0  ~/public_html/site.css
+-'  1  0  ~/public_html/#about.html#
+-'  8  0  ~/public_html/site.css
+-'  11  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  1  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  7  0  ~/public_html/site.css
+-'  8  0  ~/public_html/site.css
+-'  11  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  1  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  7  0  ~/public_html/site.css
+-'  1  19  ~/foo.txt
+-'  1  0  ~/public_html/#about.html#
+-'  8  0  ~/public_html/site.css
+-'  11  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  1  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  7  0  ~/public_html/site.css
+-'  8  0  ~/public_html/site.css
+-'  11  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
+-'  1  0  ~/public_html/site.css
+-'  1  0  ~/public_html/about_html
 
 # History of marks within files (newest to oldest):
+
+> ~/README.txt
+	"	1	24
+	^	1	25
+	.	1	24
+	+	1	24
+
+> ~/verinfo.txt
+	"	1	24
+	^	1	25
+	.	2	0
+	+	2	0
 
 > ~/bar.txt
 	"	1	19
